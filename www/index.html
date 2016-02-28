@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/framework7.ios.colors.min.css">
     <link rel="stylesheet" href="css/todo7.css">
     <!-- Favicon-->
-    <link href="img/icon-57.png" rel="shortcut icon"> 
+    <link href="img/icon-57.png" rel="shortcut icon">
     <!-- iOS 7 iPad (retina) -->
     <link href="img/icon-152.png" sizes="152x152" rel="apple-touch-icon">
     <!-- iOS 6 iPad (retina) -->
@@ -27,15 +27,16 @@
     <link href="img/icon-57.png" sizes="57x57" rel="apple-touch-icon">
     <script src="cordova.js"></script>
   </head>
-  <body>
+  <body onload="onload()">
     <!-- Statusbar overlay-->
     <div class="statusbar-overlay"></div>
     <!-- Views-->
     <div class="views">
       <div class="view view-main navbar-fixed">
+
         <div class="navbar">
           <div class="navbar-inner">
-            <div class="left"></div>
+            <div class="left"><a href="studio1.html">Studio</a></div>
             <div class="center sliding">ToDo7</div>
             <div class="right"><a href="#" class="link icon-only open-popup"><i class="icon icon-plus">+</i></a></div>
           </div>
@@ -46,6 +47,7 @@
               <div class="list-block todo-items-list theme-pink"></div>
             </div>
           </div>
+
         </div>
       </div>
     </div>
@@ -66,7 +68,7 @@
                 <ul>
                   <li>
                     <div class="item-content">
-                      <div class="item-inner"> 
+                      <div class="item-inner">
                         <div class="item-title label">Task</div>
                         <div class="item-input">
                           <input type="text" name="title">
@@ -76,7 +78,7 @@
                   </li>
                   <li>
                     <div class="item-content">
-                      <div class="item-inner"> 
+                      <div class="item-inner">
                         <div class="item-title label">Color</div>
                         <div class="item-input"><span data-color="orange" class="color selected"></span><span data-color="green" class="color"></span><span data-color="blue" class="color"></span><span data-color="yellow" class="color"></span><span data-color="white" class="color"></span><span data-color="pink" class="color"></span><span data-color="purple" class="color"></span><span data-color="cyan" class="color"></span></div>
                       </div>
