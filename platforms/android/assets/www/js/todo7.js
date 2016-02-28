@@ -85,7 +85,7 @@ $$('.todo-items-list').on('delete', '.swipeout', function () {
     }
 });
 
-// Update app when manifest updated 
+// Update app when manifest updated
 // http://www.html5rocks.com/en/tutorials/appcache/beginner/
 // Check if a new cache is available on page load.
 window.addEventListener('load', function (e) {
@@ -100,3 +100,26 @@ window.addEventListener('load', function (e) {
         }
     }, false);
 }, false);
+
+
+//my script fra
+
+// function onLoad() {
+//     document.addEventListener("deviceready", onDeviceReady, false);
+// }
+//
+// // device APIs are available
+// //
+// function onDeviceReady() {
+// }
+
+    function fineStudio(){
+      var currentTime = new Date(); //ora corrente.
+      document.getElementById('fine').innerHTML = currentTime;
+    }
+
+   function inizioStudio(){
+     localStorage.setItem('time', +new Date);
+    document.getElementById('inizio').innerHTML = new Date;
+    }
+    //new Date(parseInt(localStorage.getItem('time')));
