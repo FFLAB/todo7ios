@@ -1,0 +1,42 @@
+<!-- We don't need full layout in this file because this page will be parsed with Ajax. It is just enough to put here .navbar and .page-->
+<!-- <div class="view view-studio navbar-fixed"> prova con view, non sarebbe necessaria-->
+<!-- Top Navbar-->
+
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="left"><a href="index.html" class="back">
+                <i class="icon icon-back"></i>
+                <span>Back</span>
+            </a></div><!-- class back-->
+    <div class="center sliding">ToDo7</div>
+    <div class="right"></div>
+  </div>
+</div>
+<!-- <div class="pages"> -->
+  <div data-page="studio1" class="page">
+    <div class="page-content">
+      <div class="content-block">
+      <div class="row">
+<div class="col-auto">
+    <p><a href="#" onclick="inizioStudio()" class="button button-fill color-green">Inizio a studiare</a></p>
+</div>
+<div class="col-auto">
+  <p><a href="#" onclick="fineStudio()" class="button button-fill color-red">Stop studio!</a></p>
+</div>
+</div>
+
+<div class="row">
+    <div class="col-100">
+          <h3>Studio un po'...</h3>
+      <h4>Ho cominciato a studiare alle:</h4>
+      <p id="inizio"></p>
+      <h4>Ho smesso di studiare alle:</h4>
+      <p id="fine"></p>
+      </div>
+      </div>
+</div>
+    </div>
+  </div>
+
+<!-- </div> -->
+<!-- </div> chiusura view-->
