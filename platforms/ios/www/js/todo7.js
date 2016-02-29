@@ -11,6 +11,7 @@ var mainView = myApp.addView('.view-main', {
     // Because we use fixed-through navbar we can enable dynamic navbar
     dynamicNavbar: true
 });
+
 //var anotherView = myApp.addView('.view-studio');
 
 var todoData = localStorage.td7Data ? JSON.parse(localStorage.td7Data) : [];
