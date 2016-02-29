@@ -1,8 +1,8 @@
 body {
-  background: #000;
+  background: #080808;
 }
 .view-main {
-  background: url(../img/bg.jpg) no-repeat center;
+  /*background: url(../img/bg.jpg) no-repeat center; tolto da fra*/
   -webkit-background-size: cover;
   background-size: cover;
   -webkit-transform: translate3d(0, 0, 0) scale(1);
@@ -18,7 +18,8 @@ body {
 }
 .pages,
 .page {
-  background: none;
+  /*background: none; cambiato da fra - risolve transizione pagina corretta*/
+  background-color: #080808;
 }
 html.ios .page {
   overflow: auto;

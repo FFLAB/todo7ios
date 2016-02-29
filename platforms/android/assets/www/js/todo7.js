@@ -12,6 +12,8 @@ var mainView = myApp.addView('.view-main', {
     dynamicNavbar: true
 });
 
+//var anotherView = myApp.addView('.view-studio');
+
 var todoData = localStorage.td7Data ? JSON.parse(localStorage.td7Data) : [];
 
 $$('.popup').on('open', function () {
